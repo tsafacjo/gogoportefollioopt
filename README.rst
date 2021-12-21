@@ -23,7 +23,9 @@ gogoportefollioopt
 gogoportefollioopt
 
 this project aim to ingest stock market data into a big data plateform then process the data and output best portefollio composition
-for  given symbols
+for  given symbols.
+
+
 * Free software: MIT license
 * Documentation: https://gogoportefollioopt.readthedocs.io.
 
