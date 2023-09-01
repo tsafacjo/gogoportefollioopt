@@ -1,3 +1,16 @@
+ public static String convertInputStreamToString(InputStream inputStream) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        StringBuilder stringBuilder = new StringBuilder();
+        String line;
+
+        while ((line = reader.readLine()) != null) {
+            stringBuilder.append(line);
+            stringBuilder.append(System.lineSeparator()); // Add line separator if needed
+        }
+
+        reader.close();
+        return stringBuilder.toString();
+    }
 ==================
 gogoportefollioopt
 ==================
